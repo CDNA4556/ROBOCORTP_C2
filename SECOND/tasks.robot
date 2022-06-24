@@ -15,7 +15,6 @@ ${folderpath}=    C:\\Users\\CANAVE\\Documents\\ROBOCORP\\SECOND\\Screenshots
 Order robots from website
     Download and save File    
     Open Order Website
-    #Create Directory    C:\\Users\\CANAVE\\Documents\\ROBOCORP\\SECOND\\Screenshots
     ${orders}=    Read table from CSV    orders.csv    header=TRUE
       FOR    ${order}    IN    @{orders}
         Close pop up
