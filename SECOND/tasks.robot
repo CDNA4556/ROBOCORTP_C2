@@ -71,4 +71,3 @@ Delete Screenshots
 Order another robot 
 #Pulsar el botón order another para ordenar otro robot
     Click Button   order-another
-    #aaaaaaaaa prri tambien borraste las imagenes 10/10
